@@ -1,0 +1,166 @@
+body {
+    background-color: #f5f3ed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+main {
+    background-color: #020202;
+}
+
+/*HEADER*/
+header {
+    min-height: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-size: 100%;
+    background-color: #bab2b2;
+}
+
+nav {
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 0%;
+    width: 60%;
+    height: 100%;
+    background-color: #020202;
+}
+
+#header2 {
+    background-color: #020202;
+    height: 1%;
+
+}
+
+#header2 h1 {
+    color: #c9c0c0;
+    font-size: 50px;
+    text-align: center;
+}
+
+#header2 h2 {
+    color: #c9c0c0;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -5%;
+
+}
+
+#opcao {
+    color: #c9c0c0;
+    margin-top: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    color: #f8e0a2;
+}
+
+
+.owl-carousel {
+    margin-top: 15%;
+    width: 100%;
+
+}
+
+#form {
+    margin: 0px 10px;
+    color: #f8e0a2;
+    align-items: center;
+    justify-content: space-between;
+    color: #c9c0c0;
+    text-align: center;
+}
+
+
+#formulario {
+    color: #c9c0c0;
+    text-align: center;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    text-align: start;
+    font-size: 150%;
+}
+
+.input {
+    border: 1px solid #dfe1e500;
+    border-radius: 2px;
+    height: 29px;
+    padding: 4px;
+}
+
+.input:hover,
+:focus {
+    box-shadow: 0 1px 6px #c9c0c0;
+}
+
+.botao {
+    font-size: 30px;
+    width: 30%;
+}
+
+footer{
+    color: #c9c0c0;
+    text-align: center;
+    padding-top: 8%;
+ 
+ 
+}
+
+@media(min-width: 870px) and (max-width:1235px) {
+    #opcao {
+        color: #c9c0c0;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30%;
+    }
+}
+
+@media(min-width: 633px) and (max-width:869px) {
+   
+    #opcao {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50%;
+        display: list-item;
+
+
+    }
+}
+
+@media (max-width:632px) {
+    body {
+        background-color: #f5f3ed;
+        width: 100%;
+    }
+   
+    header{
+        position: inherit;
+            }
+    #opcao {
+        font-size: 20px;
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    nav{
+        width: 98%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
